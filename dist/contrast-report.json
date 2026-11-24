@@ -1,0 +1,469 @@
+{
+  "cliVersion": "2.1.322",
+  "nativeSyntaxRecolored": false,
+  "themes": {
+    "light": {
+      "nativeSyntaxPalette": "GitHub",
+      "uiMinimumCheckedContrast": 4.752,
+      "uiRatios": {
+        "foreground / editor.background": 11.897,
+        "descriptionForeground / sideBar.background": 10.968,
+        "button.foreground / button.background": 6.057,
+        "button.foreground / button.hoverBackground": 7.702,
+        "button.secondaryForeground / button.secondaryBackground": 10.361,
+        "statusBar.foreground / statusBar.background": 6.057,
+        "titleBar.activeForeground / titleBar.activeBackground": 6.803,
+        "titleBar.inactiveForeground / titleBar.inactiveBackground": 8.507,
+        "input.foreground / input.background": 10.361,
+        "input.placeholderForeground / input.background": 4.953,
+        "list.activeSelectionForeground / list.activeSelectionBackground": 9.733,
+        "editor.selectionForeground / editor.selectionBackground": 9.733,
+        "activityBarBadge.foreground / activityBarBadge.background": 6.057,
+        "editorLineNumber.foreground / editor.background": 5.687,
+        "editorError.foreground / editor.background": 5.543,
+        "editorWarning.foreground / editor.background": 6.376,
+        "editorInfo.foreground / editor.background": 5.884,
+        "gitDecoration.addedResourceForeground / sideBar.background": 5.424,
+        "gitDecoration.deletedResourceForeground / sideBar.background": 5.11,
+        "editorLineNumber.foreground / diffEditorGutter.insertedLineBackground": 5.053,
+        "editorLineNumber.foreground / diffEditorGutter.removedLineBackground": 4.752
+      },
+      "nativeSyntaxContrast": {
+        "keyword": {
+          "editor": 6.642,
+          "currentLine": 6.104,
+          "addedLine": 5.902,
+          "deletedLine": 5.55,
+          "addedWord": 4.799,
+          "deletedWord": 4.786
+        },
+        "_storage": {
+          "editor": 6.642,
+          "currentLine": 6.104,
+          "addedLine": 5.902,
+          "deletedLine": 5.55,
+          "addedWord": 4.799,
+          "deletedWord": 4.786
+        },
+        "built_in": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "type": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "literal": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "number": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "string": {
+          "editor": 10.01,
+          "currentLine": 9.199,
+          "addedLine": 8.894,
+          "deletedLine": 8.364,
+          "addedWord": 7.232,
+          "deletedWord": 7.212
+        },
+        "title": {
+          "editor": 5.06,
+          "currentLine": 4.651,
+          "addedLine": 4.496,
+          "deletedLine": 4.228,
+          "addedWord": 3.656,
+          "deletedWord": 3.646
+        },
+        "title.function": {
+          "editor": 5.06,
+          "currentLine": 4.651,
+          "addedLine": 4.496,
+          "deletedLine": 4.228,
+          "addedWord": 3.656,
+          "deletedWord": 3.646
+        },
+        "title.class": {
+          "editor": 19.774,
+          "currentLine": 18.172,
+          "addedLine": 17.57,
+          "deletedLine": 16.523,
+          "addedWord": 14.286,
+          "deletedWord": 14.246
+        },
+        "title.class.inherited": {
+          "editor": 19.774,
+          "currentLine": 18.172,
+          "addedLine": 17.57,
+          "deletedLine": 16.523,
+          "addedWord": 14.286,
+          "deletedWord": 14.246
+        },
+        "params": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "comment": {
+          "editor": 2.736,
+          "currentLine": 2.514,
+          "addedLine": 2.431,
+          "deletedLine": 2.286,
+          "addedWord": 1.976,
+          "deletedWord": 1.971
+        },
+        "meta": {
+          "editor": 2.736,
+          "currentLine": 2.514,
+          "addedLine": 2.431,
+          "deletedLine": 2.286,
+          "addedWord": 1.976,
+          "deletedWord": 1.971
+        },
+        "attr": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "attribute": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "variable": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "variable.language": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "property": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "operator": {
+          "editor": 6.642,
+          "currentLine": 6.104,
+          "addedLine": 5.902,
+          "deletedLine": 5.55,
+          "addedWord": 4.799,
+          "deletedWord": 4.786
+        },
+        "punctuation": {
+          "editor": 11.897,
+          "currentLine": 10.933,
+          "addedLine": 10.571,
+          "deletedLine": 9.941,
+          "addedWord": 8.595,
+          "deletedWord": 8.571
+        },
+        "symbol": {
+          "editor": 3.907,
+          "currentLine": 3.591,
+          "addedLine": 3.472,
+          "deletedLine": 3.265,
+          "addedWord": 2.823,
+          "deletedWord": 2.815
+        },
+        "regexp": {
+          "editor": 10.01,
+          "currentLine": 9.199,
+          "addedLine": 8.894,
+          "deletedLine": 8.364,
+          "addedWord": 7.232,
+          "deletedWord": 7.212
+        },
+        "subst": {
+          "editor": 11.897,
+          "currentLine": 10.933,
+          "addedLine": 10.571,
+          "deletedLine": 9.941,
+          "addedWord": 8.595,
+          "deletedWord": 8.571
+        }
+      },
+      "nativeBelowAAOnEditor": {
+        "built_in": 3.907,
+        "type": 3.907,
+        "literal": 3.907,
+        "number": 3.907,
+        "params": 3.907,
+        "comment": 2.736,
+        "meta": 2.736,
+        "attr": 3.907,
+        "attribute": 3.907,
+        "variable": 3.907,
+        "variable.language": 3.907,
+        "property": 3.907,
+        "symbol": 3.907
+      }
+    },
+    "dark": {
+      "nativeSyntaxPalette": "Monokai Extended",
+      "uiMinimumCheckedContrast": 5.353,
+      "uiRatios": {
+        "foreground / editor.background": 15.639,
+        "descriptionForeground / sideBar.background": 14.767,
+        "button.foreground / button.background": 7.314,
+        "button.foreground / button.hoverBackground": 8.933,
+        "button.secondaryForeground / button.secondaryBackground": 13.134,
+        "statusBar.foreground / statusBar.background": 9.285,
+        "titleBar.activeForeground / titleBar.activeBackground": 9.055,
+        "titleBar.inactiveForeground / titleBar.inactiveBackground": 11.164,
+        "input.foreground / input.background": 13.134,
+        "input.placeholderForeground / input.background": 6.412,
+        "list.activeSelectionForeground / list.activeSelectionBackground": 12.857,
+        "editor.selectionForeground / editor.selectionBackground": 12.857,
+        "activityBarBadge.foreground / activityBarBadge.background": 8.243,
+        "editorLineNumber.foreground / editor.background": 7.635,
+        "editorError.foreground / editor.background": 5.83,
+        "editorWarning.foreground / editor.background": 11.026,
+        "editorInfo.foreground / editor.background": 5.669,
+        "gitDecoration.addedResourceForeground / sideBar.background": 5.353,
+        "gitDecoration.deletedResourceForeground / sideBar.background": 5.505,
+        "editorLineNumber.foreground / diffEditorGutter.insertedLineBackground": 8.091,
+        "editorLineNumber.foreground / diffEditorGutter.removedLineBackground": 7.997
+      },
+      "nativeSyntaxContrast": {
+        "keyword": {
+          "editor": 4.404,
+          "currentLine": 4.201,
+          "addedLine": 4.667,
+          "deletedLine": 4.613,
+          "addedWord": 3.665,
+          "deletedWord": 3.79
+        },
+        "_storage": {
+          "editor": 10.111,
+          "currentLine": 9.645,
+          "addedLine": 10.714,
+          "deletedLine": 10.589,
+          "addedWord": 8.414,
+          "deletedWord": 8.701
+        },
+        "built_in": {
+          "editor": 10.748,
+          "currentLine": 10.253,
+          "addedLine": 11.389,
+          "deletedLine": 11.257,
+          "addedWord": 8.944,
+          "deletedWord": 9.25
+        },
+        "type": {
+          "editor": 10.748,
+          "currentLine": 10.253,
+          "addedLine": 11.389,
+          "deletedLine": 11.257,
+          "addedWord": 8.944,
+          "deletedWord": 9.25
+        },
+        "literal": {
+          "editor": 6.298,
+          "currentLine": 6.008,
+          "addedLine": 6.674,
+          "deletedLine": 6.596,
+          "addedWord": 5.241,
+          "deletedWord": 5.42
+        },
+        "number": {
+          "editor": 6.298,
+          "currentLine": 6.008,
+          "addedLine": 6.674,
+          "deletedLine": 6.596,
+          "addedWord": 5.241,
+          "deletedWord": 5.42
+        },
+        "string": {
+          "editor": 11.709,
+          "currentLine": 11.169,
+          "addedLine": 12.407,
+          "deletedLine": 12.263,
+          "addedWord": 9.744,
+          "deletedWord": 10.076
+        },
+        "title": {
+          "editor": 10.748,
+          "currentLine": 10.253,
+          "addedLine": 11.389,
+          "deletedLine": 11.257,
+          "addedWord": 8.944,
+          "deletedWord": 9.25
+        },
+        "title.function": {
+          "editor": 10.748,
+          "currentLine": 10.253,
+          "addedLine": 11.389,
+          "deletedLine": 11.257,
+          "addedWord": 8.944,
+          "deletedWord": 9.25
+        },
+        "title.class": {
+          "editor": 10.748,
+          "currentLine": 10.253,
+          "addedLine": 11.389,
+          "deletedLine": 11.257,
+          "addedWord": 8.944,
+          "deletedWord": 9.25
+        },
+        "title.class.inherited": {
+          "editor": 10.748,
+          "currentLine": 10.253,
+          "addedLine": 11.389,
+          "deletedLine": 11.257,
+          "addedWord": 8.944,
+          "deletedWord": 9.25
+        },
+        "params": {
+          "editor": 7.639,
+          "currentLine": 7.287,
+          "addedLine": 8.095,
+          "deletedLine": 8.001,
+          "addedWord": 6.357,
+          "deletedWord": 6.574
+        },
+        "comment": {
+          "editor": 3.398,
+          "currentLine": 3.241,
+          "addedLine": 3.6,
+          "deletedLine": 3.559,
+          "addedWord": 2.827,
+          "deletedWord": 2.924
+        },
+        "meta": {
+          "editor": 3.398,
+          "currentLine": 3.241,
+          "addedLine": 3.6,
+          "deletedLine": 3.559,
+          "addedWord": 2.827,
+          "deletedWord": 2.924
+        },
+        "attr": {
+          "editor": 10.748,
+          "currentLine": 10.253,
+          "addedLine": 11.389,
+          "deletedLine": 11.257,
+          "addedWord": 8.944,
+          "deletedWord": 9.25
+        },
+        "attribute": {
+          "editor": 10.748,
+          "currentLine": 10.253,
+          "addedLine": 11.389,
+          "deletedLine": 11.257,
+          "addedWord": 8.944,
+          "deletedWord": 9.25
+        },
+        "variable": {
+          "editor": 16.671,
+          "currentLine": 15.903,
+          "addedLine": 17.665,
+          "deletedLine": 17.46,
+          "addedWord": 13.873,
+          "deletedWord": 14.347
+        },
+        "variable.language": {
+          "editor": 16.671,
+          "currentLine": 15.903,
+          "addedLine": 17.665,
+          "deletedLine": 17.46,
+          "addedWord": 13.873,
+          "deletedWord": 14.347
+        },
+        "property": {
+          "editor": 16.671,
+          "currentLine": 15.903,
+          "addedLine": 17.665,
+          "deletedLine": 17.46,
+          "addedWord": 13.873,
+          "deletedWord": 14.347
+        },
+        "operator": {
+          "editor": 4.404,
+          "currentLine": 4.201,
+          "addedLine": 4.667,
+          "deletedLine": 4.613,
+          "addedWord": 3.665,
+          "deletedWord": 3.79
+        },
+        "punctuation": {
+          "editor": 15.639,
+          "currentLine": 14.918,
+          "addedLine": 16.572,
+          "deletedLine": 16.379,
+          "addedWord": 13.014,
+          "deletedWord": 13.459
+        },
+        "symbol": {
+          "editor": 6.298,
+          "currentLine": 6.008,
+          "addedLine": 6.674,
+          "deletedLine": 6.596,
+          "addedWord": 5.241,
+          "deletedWord": 5.42
+        },
+        "regexp": {
+          "editor": 11.709,
+          "currentLine": 11.169,
+          "addedLine": 12.407,
+          "deletedLine": 12.263,
+          "addedWord": 9.744,
+          "deletedWord": 10.076
+        },
+        "subst": {
+          "editor": 15.639,
+          "currentLine": 14.918,
+          "addedLine": 16.572,
+          "deletedLine": 16.379,
+          "addedWord": 13.014,
+          "deletedWord": 13.459
+        }
+      },
+      "nativeBelowAAOnEditor": {
+        "keyword": 4.404,
+        "comment": 3.398,
+        "meta": 3.398,
+        "operator": 4.404
+      }
+    }
+  }
+}

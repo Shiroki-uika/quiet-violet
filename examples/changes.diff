@@ -1,0 +1,12 @@
+diff --git a/preferences.ts b/preferences.ts
+--- a/preferences.ts
++++ b/preferences.ts
+@@ -1,4 +1,5 @@
+-export const theme = "Quiet Light";
+-export const added = "green";
+-export const removed = "red";
++export const theme = "Quiet Violet";
++export const added = "blue";
++export const removed = "pink-red";
++export const followSystem = true;
+ export const accent = "purple";

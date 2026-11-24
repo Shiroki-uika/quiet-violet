@@ -1,0 +1,17 @@
+{
+  "name": "quiet-violet",
+  "displayName": "Quiet Violet — 色觉友好亮暗主题",
+  "description": "本机 Claude CLI 原色：GitHub 浅色／Monokai Extended 深色代码、蓝红 Diff，保留 Quiet Light 淡紫界面。",
+  "version": "0.2.0",
+  "publisher": "local-design",
+  "license": "MIT",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Themes"],
+  "keywords": ["accessible", "colorblind", "quiet light", "purple", "light", "dark"],
+  "contributes": {
+    "themes": [
+      { "label": "Quiet Violet Light", "uiTheme": "vs", "path": "./themes/quiet-violet-light.json" },
+      { "label": "Quiet Violet Dark", "uiTheme": "vs-dark", "path": "./themes/quiet-violet-dark.json" }
+    ]
+  }
+}
