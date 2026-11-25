@@ -158,10 +158,10 @@ def make_theme(mode):
     put("selection", "terminal.selectionBackground")
     if mode == "light":
         ansi = {
-            "Black": ("#302D36", "#57515F"), "Red": ("#984852", "#AE5060"),
-            "Green": ("#38633F", "#43764B"), "Yellow": ("#795B23", "#896921"),
-            "Blue": ("#425F91", "#4D6DA6"), "Magenta": (p["accent"], "#835DA2"),
-            "Cyan": ("#27686B", "#297779"), "White": ("#655F6C", "#716B77"),
+            "Black": ("#302D36", "#57515F"), "Red": ("#A3525C", "#B25363"),
+            "Green": ("#4F7B56", "#4A7D52"), "Yellow": ("#886932", "#8E6D26"),
+            "Blue": ("#516FA2", "#5272AC"), "Magenta": ("#795FA1", "#8962A8"),
+            "Cyan": ("#3B7A7D", "#317D7F"), "White": ("#655F6C", "#716B77"),
         }
     else:
         normal = {
