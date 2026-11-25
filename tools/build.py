@@ -164,11 +164,12 @@ def make_theme(mode):
             "Cyan": ("#3B7A7D", "#317D7F"), "White": ("#655F6C", "#716B77"),
         }
     else:
-        normal = {
-            "Black": p["muted"], "Red": p["red"], "Green": p["blue"], "Yellow": p["yellow"],
-            "Blue": state["permission"], "Magenta": p["pink"], "Cyan": p["teal"], "White": p["fg"],
+        ansi = {
+            "Black": (p["muted"], p["muted"]), "Red": ("#ED877A", "#FCA297"),
+            "Green": ("#80B97C", "#95CF91"), "Yellow": ("#D19E47", "#E8B45E"),
+            "Blue": ("#77ABEA", "#90C1FC"), "Magenta": ("#B498DE", "#CAAEF6"),
+            "Cyan": ("#58BBAF", "#6FD2C6"), "White": (p["fg"], p["fg"]),
         }
-        ansi = {name: (value, value) for name, value in normal.items()}
     for name, (normal_color, bright_color) in ansi.items():
         put(normal_color, f"terminal.ansi{name}")
         put(bright_color, f"terminal.ansiBright{name}")

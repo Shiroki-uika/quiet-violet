@@ -21,7 +21,7 @@ Quiet Violet v0.2.0 为 VS Code、kitty 和 Windows Terminal 提供浅色与深�
 
 **Windows Terminal**：打开设置，选择「打开 JSON 文件」。把[配色文件](terminal/windows-terminal.json)数组内的两个对象追加到设置的 `schemes` 数组中，保留已有方案。保存后，在所用配置文件的「外观 → 配色方案」选择 `Quiet Violet Light` 或 `Quiet Violet Dark`。
 
-浅色终端的 16 个 ANSI 色槽各有独立色值。红色采用柔和的玫瑰红，绿色和青色各自独立，品红槽使用紫色。六种彩色及其亮色按感知明度均衡调整，平均 OKLCH L 约为 0.55，与终端底色的对比度均达到 4.5∶1。kitty、Windows Terminal 与 VS Code 集成终端使用相同的映射。可用下列命令在兼容 POSIX 的 shell 中查看全部 16 色：
+浅色终端的 16 个 ANSI 色槽各有独立色值。红色采用柔和的玫瑰红，绿色和青色各自独立，品红槽使用紫色。六种彩色及其亮色按感知明度均衡调整，平均 OKLCH L 约为 0.55，与终端底色的对比度均达到 4.5∶1。深色终端在 `#1E1E1E` 背景上使用珊瑚红、草绿、琥珀黄、蓝、淡紫和青绿，普通彩色的 OKLCH L 约为 0.73，亮彩色约为 0.80。kitty、Windows Terminal 与 VS Code 集成终端使用相同的映射。可用下列命令在兼容 POSIX 的 shell 中查看全部 16 色：
 
 ```sh
 for code in 30 31 32 33 34 35 36 37 90 91 92 93 94 95 96 97; do

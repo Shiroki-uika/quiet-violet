@@ -92,8 +92,10 @@ def check():
             assert len(set(slots)) == 16, 'Light ANSI colors must be distinct'
             assert all(contrast(c, kitty['background']) >= 4.5 for c in slots)
         else:
-            assert colors['terminal.ansiRed'] == state['error']
-            assert colors['terminal.ansiGreen'] == state['success']
+            for i in range(1, 7):
+                normal, bright = kitty[f'color{i}'], kitty[f'color{i + 8}']
+                assert luminance(bright) > luminance(normal)
+                assert contrast(normal, kitty['background']) >= 4.5
         assert colors['diffEditor.insertedLineBackground'] == diff['addLine']
         assert colors['diffEditor.removedLineBackground'] == diff['deleteLine']
         for kind, native in (('inserted', 'add'), ('removed', 'delete')):
