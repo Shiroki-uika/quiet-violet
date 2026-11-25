@@ -85,8 +85,15 @@ def check():
                                'type': 'type', 'parameter': 'params', 'variable': 'variable',
                                'property': 'property', 'number': 'number', 'operator': 'operator'}.items():
             assert theme['semanticTokenColors'][semantic] == syntax[scope]
-        assert colors['editorError.foreground'] == colors['terminal.ansiRed'] == state['error']
-        assert colors['editorGutter.addedBackground'] == colors['terminal.ansiGreen'] == state['success']
+        assert colors['editorError.foreground'] == state['error']
+        assert colors['editorGutter.addedBackground'] == state['success']
+        if mode == 'light':
+            slots = [kitty[f'color{i}'] for i in range(16)]
+            assert len(set(slots)) == 16, 'Light ANSI colors must be distinct'
+            assert all(contrast(c, kitty['background']) >= 4.5 for c in slots)
+        else:
+            assert colors['terminal.ansiRed'] == state['error']
+            assert colors['terminal.ansiGreen'] == state['success']
         assert colors['diffEditor.insertedLineBackground'] == diff['addLine']
         assert colors['diffEditor.removedLineBackground'] == diff['deleteLine']
         for kind, native in (('inserted', 'add'), ('removed', 'delete')):

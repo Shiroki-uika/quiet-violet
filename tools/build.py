@@ -156,14 +156,22 @@ def make_theme(mode):
     put("terminalBg", "terminal.background")
     put("fg", "terminal.foreground", "terminalCursor.foreground")
     put("selection", "terminal.selectionBackground")
-    # ANSI success stays blue and errors stay red. Native truecolor syntax is
-    # independently reproduced below; it is not this ANSI slot mapping.
-    ansi = {
-        "Black": p["muted"], "Red": p["red"], "Green": p["blue"], "Yellow": p["yellow"],
-        "Blue": state["permission"], "Magenta": p["pink"], "Cyan": p["teal"], "White": p["fg"],
-    }
-    for name, value in ansi.items():
-        put(value, f"terminal.ansi{name}", f"terminal.ansiBright{name}")
+    if mode == "light":
+        ansi = {
+            "Black": ("#302D36", "#57515F"), "Red": ("#984852", "#AE5060"),
+            "Green": ("#38633F", "#43764B"), "Yellow": ("#795B23", "#896921"),
+            "Blue": ("#425F91", "#4D6DA6"), "Magenta": (p["accent"], "#835DA2"),
+            "Cyan": ("#27686B", "#297779"), "White": ("#655F6C", "#716B77"),
+        }
+    else:
+        normal = {
+            "Black": p["muted"], "Red": p["red"], "Green": p["blue"], "Yellow": p["yellow"],
+            "Blue": state["permission"], "Magenta": p["pink"], "Cyan": p["teal"], "White": p["fg"],
+        }
+        ansi = {name: (value, value) for name, value in normal.items()}
+    for name, (normal_color, bright_color) in ansi.items():
+        put(normal_color, f"terminal.ansi{name}")
+        put(bright_color, f"terminal.ansiBright{name}")
 
     rules = []
 
